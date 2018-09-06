@@ -11905,7 +11905,8 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Exploring-NYC-Yellow-Taxi-Data">Exploring NYC Yellow Taxi Data<a class="anchor-link" href="#Exploring-NYC-Yellow-Taxi-Data">&#182;</a></h1><h5 id="Data-Source:-http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml">Data Source: <a href="http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml">http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml</a><a class="anchor-link" href="#Data-Source:-http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml">&#182;</a></h5>
+<h2 id="Exploring-NYC-Yellow-Taxi-Data">Exploring NYC Yellow Taxi Data<a class="anchor-link" href="#Exploring-NYC-Yellow-Taxi-Data">&#182;</a></h2><p>Data Source: <a href="http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml">http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml</a></p>
+
 </div>
 </div>
 </div>
@@ -11913,7 +11914,8 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="First,-let's-read-in-the-data-and-the-necessary-libraries.-The-bulk-of-our-data-will-in-be-tripdata.dec17-and-tripdata.zones-will-be-used-as-a-dictionary-(look-up-table)-to-map-specific-zones-for-Drop-Off-and-Pick-Ups.">First, let's read in the data and the necessary libraries. The bulk of our data will in be tripdata.dec17 and tripdata.zones will be used as a dictionary (look up table) to map specific zones for Drop-Off and Pick-Ups.<a class="anchor-link" href="#First,-let's-read-in-the-data-and-the-necessary-libraries.-The-bulk-of-our-data-will-in-be-tripdata.dec17-and-tripdata.zones-will-be-used-as-a-dictionary-(look-up-table)-to-map-specific-zones-for-Drop-Off-and-Pick-Ups.">&#182;</a></h4>
+<p>First, let's read in the data and the necessary libraries. The bulk of our data will in be tripdata.dec17 and tripdata.zones will be used as a dictionary (look up table) to map specific zones for Drop-Off and Pick-Ups.</p>
+
 </div>
 </div>
 </div>
@@ -11939,7 +11941,8 @@ tripdata.zones <span class="o">&lt;-</span> read.csv<span class="p">(</span><spa
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Now-map-the-zones-accordingly.-For-e.g.-PULocationID-=-1-means-that-the-Taxi-Meter-was-engaged-at-Newark-Aiport-in-the-EWC-Borough">Now map the zones accordingly. For e.g. PULocationID = 1 means that the Taxi Meter was engaged at Newark Aiport in the EWC Borough<a class="anchor-link" href="#Now-map-the-zones-accordingly.-For-e.g.-PULocationID-=-1-means-that-the-Taxi-Meter-was-engaged-at-Newark-Aiport-in-the-EWC-Borough">&#182;</a></h4>
+<p>Now map the zones accordingly. For e.g. PULocationID = 1 means that the Taxi Meter was engaged at Newark Aiport in the EWC Borough</p>
+
 </div>
 </div>
 </div>
@@ -11964,7 +11967,8 @@ tripdata.dec17.v1<span class="o">$</span>DOBorough <span class="o">&lt;-</span> 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Now,-let's-see-which-Pick-Up-Zones-and-Drop-Off-Zones-are-the-most-popular-in-NYC.">Now, let's see which Pick-Up Zones and Drop-Off Zones are the most popular in NYC.<a class="anchor-link" href="#Now,-let's-see-which-Pick-Up-Zones-and-Drop-Off-Zones-are-the-most-popular-in-NYC.">&#182;</a></h4>
+<p>Now, let's see which Pick-Up Zones and Drop-Off Zones are the most popular in NYC.</p>
+
 </div>
 </div>
 </div>
@@ -12042,7 +12046,9 @@ DOZone.count <span class="o">&lt;-</span> tripdata.dec17.v1 <span class="o">%&gt
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Upper-East-Side-and-Midtown-are-seemingly-the-most-popular-taxi-zones.-Not-surprising-as-said-zones-are-in-Manhattan!">Upper East Side and Midtown are seemingly the most popular taxi zones. Not surprising as said zones are in <strong>Manhattan!</strong><a class="anchor-link" href="#Upper-East-Side-and-Midtown-are-seemingly-the-most-popular-taxi-zones.-Not-surprising-as-said-zones-are-in-Manhattan!">&#182;</a></h4><h4 id="Now,-let's-verify-if-Manhattan-is-indeed-the-most-popular-borough-in-NYC.">Now, let's verify if Manhattan is indeed the most popular borough in NYC.<a class="anchor-link" href="#Now,-let's-verify-if-Manhattan-is-indeed-the-most-popular-borough-in-NYC.">&#182;</a></h4>
+<p>Upper East Side and Midtown are seemingly the most popular taxi zones. Not surprising as said zones are in <strong>Manhattan!</strong>
+Now, let's verify if Manhattan is indeed the most popular borough in NYC.</p>
+
 </div>
 </div>
 </div>
@@ -12122,7 +12128,9 @@ DOBorough.count
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Not-even-close.-An-estimated-8-million-trips-in-the-month-of-December-alone!">Not even close. An estimated <strong>8 million trips</strong> in the month of December alone!<a class="anchor-link" href="#Not-even-close.-An-estimated-8-million-trips-in-the-month-of-December-alone!">&#182;</a></h4><h4 id="What-about-the-average-fare-(total-amount-paid-including-tips)-by-boroughs?">What about the average fare (total amount paid including tips) by boroughs?<a class="anchor-link" href="#What-about-the-average-fare-(total-amount-paid-including-tips)-by-boroughs?">&#182;</a></h4>
+<p>Not even close. An estimated <strong>8 million trips</strong> in the month of December alone!</p>
+<p>What about the average fare (total amount paid including tips) by boroughs?</p>
+
 </div>
 </div>
 </div>
@@ -12174,7 +12182,9 @@ DOBorough.count
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Hmm...-Average-fare-amounts-to-a-mere-14-dollars-per-trip-in-Manhattan.-I'm-assuming-this-is-because-people-take-short-trips-inside-the-city.-Whereas,-if-a-passenger-is-picked-up-from-Staten-Island,-Queens,-or-EWR,-the-average-trip-distance-is-most-likely-further-away.">Hmm... Average fare amounts to a mere <strong>14 dollars</strong> per trip in Manhattan. I'm assuming this is because people take short trips inside the city. Whereas, if a passenger is picked up from Staten Island, Queens, or EWR, the average trip distance is most likely further away.<a class="anchor-link" href="#Hmm...-Average-fare-amounts-to-a-mere-14-dollars-per-trip-in-Manhattan.-I'm-assuming-this-is-because-people-take-short-trips-inside-the-city.-Whereas,-if-a-passenger-is-picked-up-from-Staten-Island,-Queens,-or-EWR,-the-average-trip-distance-is-most-likely-further-away.">&#182;</a></h4><h4 id="But,-I'm-really-curious-about-the-94-dollars-average-total-fare-amount-if-a-passenger-gets-picked-up-in-EWR-(Newark-Airport).-Why-is-it-so-high?">But, I'm really curious about the <strong>94 dollars</strong> average total fare amount if a passenger gets picked up in EWR (Newark Airport). Why is it so high?<a class="anchor-link" href="#But,-I'm-really-curious-about-the-94-dollars-average-total-fare-amount-if-a-passenger-gets-picked-up-in-EWR-(Newark-Airport).-Why-is-it-so-high?">&#182;</a></h4>
+<p>Average fare amounts to a mere <strong>14 dollars</strong> per trip in Manhattan. I'm assuming this is because people take short trips inside the city. Whereas, if a passenger is picked up from Staten Island, Queens, or EWR, the average trip distance is most likely further away.</p>
+<p>But, I'm really curious about the <strong>94 dollars</strong> average total fare amount if a passenger gets picked up in EWR (Newark Airport). Why is it so high?</p>
+
 </div>
 </div>
 </div>
@@ -12218,7 +12228,9 @@ DOBorough.count
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Looking-at-the-summary-data-it-seems-like-there-are-a-number-of-outliers-and-misentered-data.-Let's-clean-that-up-a-bit.">Looking at the summary data it seems like there are a number of outliers and misentered data. Let's clean that up a bit.<a class="anchor-link" href="#Looking-at-the-summary-data-it-seems-like-there-are-a-number-of-outliers-and-misentered-data.-Let's-clean-that-up-a-bit.">&#182;</a></h4><h5 id="RemoveOutliers-function-will-take-the-taxi-dataframe,-calculates-its-lower-bound-and-upper-bound-using-the-IQR-Rule.">RemoveOutliers function will take the taxi dataframe, calculates its lower bound and upper bound using the IQR Rule.<a class="anchor-link" href="#RemoveOutliers-function-will-take-the-taxi-dataframe,-calculates-its-lower-bound-and-upper-bound-using-the-IQR-Rule.">&#182;</a></h5>
+<p>Looking at the summary data it seems like there are a number of outliers and misentered data. Let's clean that up a bit.</p>
+<p>RemoveOutliers function will take the taxi dataframe, substitute negative fares with its median, and calculates its lower bound and upper bound using the IQR Rule.</p>
+
 </div>
 </div>
 </div>
@@ -12269,7 +12281,8 @@ EWR.tripdata <span class="o">&lt;-</span> RemoveOutliers<span class="p">(</span>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="The-mean-and-median-is-much-closer-to-each-other-now-(but,-their-values-have-increased!).-Let's-visualize-its-histogram.">The mean and median is much closer to each other now (but, their values have increased!). Let's visualize its histogram.<a class="anchor-link" href="#The-mean-and-median-is-much-closer-to-each-other-now-(but,-their-values-have-increased!).-Let's-visualize-its-histogram.">&#182;</a></h4>
+<p>The mean and median is much closer to each other now (but, their values have increased!). Let's visualize its histogram.</p>
+
 </div>
 </div>
 </div>
@@ -12501,7 +12514,8 @@ SIABQgIMEBJggJAAA4QEGCAkwAAhAQYICTBASICB/w8sDoowXu0GzQAAAABJRU5ErkJggg=="
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="How-about-the-other-boroughs?">How about the other boroughs?<a class="anchor-link" href="#How-about-the-other-boroughs?">&#182;</a></h4>
+<p>How about the other boroughs?</p>
+
 </div>
 </div>
 </div>
@@ -13057,7 +13071,9 @@ YeMAAAAASUVORK5CYII="
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Bronx-and-Brooklyn-are-relatively-similar,-and-Staten-Island-seems-to-possess-a-wider-dispersion.">Bronx and Brooklyn are relatively similar, and Staten Island seems to possess a wider dispersion.<a class="anchor-link" href="#Bronx-and-Brooklyn-are-relatively-similar,-and-Staten-Island-seems-to-possess-a-wider-dispersion.">&#182;</a></h4><h3 id="Let's-calculate-a-95%-confidence-interval-to-estimate-the-true-population-mean-of-each-borough's-average-total-fare-amount.-I-will-employ-the-t-statistic-since-I-am-working-with-the-sample-standard-deviation.">Let's calculate a 95% confidence interval to estimate the true population mean of each borough's average total fare amount. I will employ the t-statistic since I am working with the sample standard deviation.<a class="anchor-link" href="#Let's-calculate-a-95%-confidence-interval-to-estimate-the-true-population-mean-of-each-borough's-average-total-fare-amount.-I-will-employ-the-t-statistic-since-I-am-working-with-the-sample-standard-deviation.">&#182;</a></h3>
+<p>Bronx and Brooklyn are relatively similar, and Staten Island seems to possess a wider dispersion.</p>
+<h3 id="Let's-calculate-a-95%-confidence-interval-to-estimate-the-true-population-mean-of-each-borough's-average-total-fare-amount.">Let's calculate a 95% confidence interval to estimate the true population mean of each borough's average total fare amount.<a class="anchor-link" href="#Let's-calculate-a-95%-confidence-interval-to-estimate-the-true-population-mean-of-each-borough's-average-total-fare-amount.">&#182;</a></h3><p>I will employ the t-statistic since I am working with the sample standard deviation.</p>
+
 </div>
 </div>
 </div>
@@ -13136,7 +13152,8 @@ trip.CI
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="There-is-a-95%-probability-that-the-true-mean-for-EWR's-average-total-fare-amount-is-between-100-and-103-dollars-assuming-that-the-original-random-variable-is-normally-distributed,-and-the-samples-are-independent.">There is a 95% probability that the true mean for EWR's average total fare amount is between 100 and 103 dollars assuming that the original random variable is normally distributed, and the samples are independent.<a class="anchor-link" href="#There-is-a-95%-probability-that-the-true-mean-for-EWR's-average-total-fare-amount-is-between-100-and-103-dollars-assuming-that-the-original-random-variable-is-normally-distributed,-and-the-samples-are-independent.">&#182;</a></h4>
+<p>There is a 95% probability that the true mean for EWR's average total fare amount is between 100 and 103 dollars assuming that the original random variable is normally distributed, and the samples are independent.</p>
+
 </div>
 </div>
 </div>
@@ -13159,7 +13176,9 @@ tripdata.dec17.v2<span class="o">$</span>DOService <span class="o">&lt;-</span> 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Another-interesting-test-we-can-conduct-is-to-further-split-the-data-into-two-different-zones-(Boro-zones-and-Yellow-zones)-and-conduct-an-unpaired-two-samples-t-test-to-compare-their-means.">Another interesting test we can conduct is to further split the data into two different zones (Boro zones and Yellow zones) and conduct <strong>an unpaired two-samples t-test</strong> to compare their means.<a class="anchor-link" href="#Another-interesting-test-we-can-conduct-is-to-further-split-the-data-into-two-different-zones-(Boro-zones-and-Yellow-zones)-and-conduct-an-unpaired-two-samples-t-test-to-compare-their-means.">&#182;</a></h3><h4 id="Boro-taxis-are-taxis-in-NYC-that-are-allowed-to-pick-up-passengers-in-outer-boroughs(the-Bronx,-Brooklyn,-Queens,-and-Staten-Island)-and-in-Manhattan-above-East-96th-and-West-110th-Streets.">Boro taxis are taxis in NYC that are allowed to pick up passengers in outer boroughs(the Bronx, Brooklyn, Queens, and Staten Island) and in Manhattan above East 96th and West 110th Streets.<a class="anchor-link" href="#Boro-taxis-are-taxis-in-NYC-that-are-allowed-to-pick-up-passengers-in-outer-boroughs(the-Bronx,-Brooklyn,-Queens,-and-Staten-Island)-and-in-Manhattan-above-East-96th-and-West-110th-Streets.">&#182;</a></h4><h4 id="Yellow-taxis-however-can-pick-up-passengers-from-anywhere.">Yellow taxis however can pick up passengers from anywhere.<a class="anchor-link" href="#Yellow-taxis-however-can-pick-up-passengers-from-anywhere.">&#182;</a></h4>
+<h3 id="Another-interesting-test-we-can-conduct-is-to-further-split-the-data-into-two-different-zones-(Boro-zones-and-Yellow-zones)-and-conduct-an-unpaired-two-samples-t-test-to-compare-their-means.">Another interesting test we can conduct is to further split the data into two different zones (Boro zones and Yellow zones) and conduct <strong>an unpaired two-samples t-test</strong> to compare their means.<a class="anchor-link" href="#Another-interesting-test-we-can-conduct-is-to-further-split-the-data-into-two-different-zones-(Boro-zones-and-Yellow-zones)-and-conduct-an-unpaired-two-samples-t-test-to-compare-their-means.">&#182;</a></h3><p>Boro taxis are taxis in NYC that are allowed to pick up passengers in outer boroughs(the Bronx, Brooklyn, Queens, and Staten Island) and in Manhattan above East 96th and West 110th Streets.</p>
+<p>Yellow taxis however can pick up passengers from anywhere.</p>
+
 </div>
 </div>
 </div>
@@ -13219,7 +13238,8 @@ YELLOW.tripdata <span class="o">&lt;-</span> RemoveOutliers<span class="p">(</sp
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Let's-visualize-a-density-area-graph-for-the-two-zones">Let's visualize a density area graph for the two zones<a class="anchor-link" href="#Let's-visualize-a-density-area-graph-for-the-two-zones">&#182;</a></h4>
+<p>Let's visualize a density area graph for the two zones</p>
+
 </div>
 </div>
 </div>
@@ -14336,7 +14356,8 @@ gCQIdgAAAJIg2AEAAEjiv9KoMz95o9etAAAAAElFTkSuQmCC"
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="What-about-the-mean-and-standard-deviation-for-the-two-zones?">What about the mean and standard deviation for the two zones?<a class="anchor-link" href="#What-about-the-mean-and-standard-deviation-for-the-two-zones?">&#182;</a></h4>
+<p>What about the mean and standard deviation for the two zones?</p>
+
 </div>
 </div>
 </div>
@@ -14388,7 +14409,10 @@ gCQIdgAAAJIg2AEAAEjiv9KoMz95o9etAAAAAElFTkSuQmCC"
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Preliminary-test-to-check-independent-t-test-assumptions"><em>Preliminary test to check independent t-test assumptions</em><a class="anchor-link" href="#Preliminary-test-to-check-independent-t-test-assumptions">&#182;</a></h3><h4 id="Assumption-1:-Are-the-two-samples-independents?-YES">Assumption 1: Are the two samples independents? <strong>YES</strong><a class="anchor-link" href="#Assumption-1:-Are-the-two-samples-independents?-YES">&#182;</a></h4><h4 id="Assumption-2:-Are-the-data-from-each-of-the-2-groups-follow-a-normal-distribution?-YES">Assumption 2: Are the data from each of the 2 groups follow a normal distribution? <strong>YES</strong><a class="anchor-link" href="#Assumption-2:-Are-the-data-from-each-of-the-2-groups-follow-a-normal-distribution?-YES">&#182;</a></h4><h4 id="Assumption-3.-Do-the-two-populations-have-the-same-variances?-We'll-need-to-conduct-an-F-test">Assumption 3. Do the two populations have the same variances? <strong>We'll need to conduct an F-test</strong><a class="anchor-link" href="#Assumption-3.-Do-the-two-populations-have-the-same-variances?-We'll-need-to-conduct-an-F-test">&#182;</a></h4>
+<h4 id="Preliminary-test-to-check-independent-t-test-assumptions">Preliminary test to check independent t-test assumptions<a class="anchor-link" href="#Preliminary-test-to-check-independent-t-test-assumptions">&#182;</a></h4><p>Assumption 1: Are the two samples independents? <strong>YES</strong></p>
+<p>Assumption 2: Are the data from each of the 2 groups follow a normal distribution? <strong>YES</strong></p>
+<p>Assumption 3. Do the two populations have the same variances? <strong>We'll need to conduct an F-test</strong></p>
+
 </div>
 </div>
 </div>
@@ -14444,7 +14468,10 @@ ratio of variances
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="The-p-value-of-F-test-is-p-=-0.03565.-It&#8217;s-less-than-the-significance-level-alpha-=-0.05.">The p-value of F-test is p = 0.03565. It&#8217;s less than the significance level alpha = 0.05.<a class="anchor-link" href="#The-p-value-of-F-test-is-p-=-0.03565.-It&#8217;s-less-than-the-significance-level-alpha-=-0.05.">&#182;</a></h4><h5 id="Thus,-there-is-a-significant-difference-between-the-variances-of-the-two-sets-of-data.-Therefore,-we-cannot-use-the-classic-t-test-which-assume-equality-of-the-two-variances.">Thus, there is a significant difference between the variances of the two sets of data. Therefore, we cannot use the classic t-test which assume equality of the two variances.<a class="anchor-link" href="#Thus,-there-is-a-significant-difference-between-the-variances-of-the-two-sets-of-data.-Therefore,-we-cannot-use-the-classic-t-test-which-assume-equality-of-the-two-variances.">&#182;</a></h5><h5 id="Instead,-we-will-use-Welch's-Two-Sample-t-test.">Instead, we will use Welch's Two Sample t-test.<a class="anchor-link" href="#Instead,-we-will-use-Welch's-Two-Sample-t-test.">&#182;</a></h5>
+<p>The p-value of F-test is p = 0.03565. It’s less than the significance level alpha = 0.05.</p>
+<p>Thus, there is a significant difference between the variances of the two sets of data. Therefore, we cannot use the classic t-test which assume equality of the two variances.</p>
+<p>Instead, we will use Welch's Two Sample t-test.</p>
+
 </div>
 </div>
 </div>
@@ -14496,7 +14523,9 @@ mean of x mean of y
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="The-p-value-of-the-test-is-0.1713,-which-is-greater-than-the-significance-level-alpha-=-0.05.">The p-value of the test is 0.1713, which is greater than the significance level alpha = 0.05.<a class="anchor-link" href="#The-p-value-of-the-test-is-0.1713,-which-is-greater-than-the-significance-level-alpha-=-0.05.">&#182;</a></h3><h3 id="Hence,-we-cannot-reject-the-null-hypothesis-and-conclude-that-Yellow-zones&#8217;-average-total-fare-is-not-significantly-different-from-Boro-zones&#8217;-average-total-fare-with-a-p-value-=-0.1713.">Hence, we cannot reject the null hypothesis and conclude that Yellow zones&#8217; average total fare is not significantly different from Boro zones&#8217; average total fare with a p-value = 0.1713.<a class="anchor-link" href="#Hence,-we-cannot-reject-the-null-hypothesis-and-conclude-that-Yellow-zones&#8217;-average-total-fare-is-not-significantly-different-from-Boro-zones&#8217;-average-total-fare-with-a-p-value-=-0.1713.">&#182;</a></h3>
+<p>The p-value of the test is 0.1713, which is greater than the significance level alpha = 0.05. 
+Hence, we <strong>cannot reject the null hypothesis</strong> and conclude that Yellow zones’ average total fare is not significantly different from Boro zones’ average total fare with a p-value = 0.1713.</p>
+
 </div>
 </div>
 </div></section></section>
